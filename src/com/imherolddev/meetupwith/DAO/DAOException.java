@@ -23,7 +23,12 @@ package com.imherolddev.meetupwith.DAO;
  */
 public class DAOException extends Exception {
 
-    public DAOException() {
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public DAOException() {
         super();
     }
 
